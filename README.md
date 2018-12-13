@@ -7,7 +7,7 @@ Input range box component for React
 ## Install
 
 ```
-$ npm install @aslihanozfidan/range-box
+$ npm install range-box
 ```
 
 ## Usage
