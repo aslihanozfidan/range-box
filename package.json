@@ -1,32 +1,38 @@
 {
-	"name": "range-box",
-	"version": "0.0.2",
-	"description": "Input range box component for React",
-	"main": "build/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "react-scripts start",
-		"build": "webpack"
-	},
-	"author": {
-		"name": "Aslihan Ozfidan",
-		"email": "aslihanozfidan@gmail.com"
-	},
-	"devDependencies": {
-		"@babel/cli": "^7.2.0",
-		"@babel/core": "^7.2.0",
-		"@babel/preset-env": "^7.2.0",
-		"@babel/preset-react": "^7.0.0",
-		"babel-loader": "^8.0.4",
-		"babel-preset-env": "^1.7.0",
-		"babel-register": "^6.26.0",
-		"webpack": "^4.19.1",
-		"webpack-cli": "^3.1.2",
-		"webpack-dev-server": "^3.1.9"
-	},
-	"dependencies": {
-		"react": "^16.6.3",
-		"react-dom": "^16.6.3",
-		"react-scripts": "^2.1.1"
-	}
+  "name": "range-box",
+  "version": "0.1.0",
+  "description": "Input range box component for React",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aslihanozfidan/range-box"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Aslihan Ozfidan",
+    "email": "aslihanozfidan@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
 }
