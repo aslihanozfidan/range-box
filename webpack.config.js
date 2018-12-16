@@ -6,6 +6,7 @@ module.exports = {
     filename: 'index.js',
     libraryTarget: 'commonjs2'
   },
+  watch:true,
   module: {
     rules: [
       {
