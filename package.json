@@ -1,6 +1,6 @@
 {
   "name": "range-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Input range box component for React",
   "main": "build/index.js",
   "repository": {
@@ -18,6 +18,13 @@
     "name": "Aslihan Ozfidan",
     "email": "aslihanozfidan@gmail.com"
   },
+  "keywords": [
+    "react",
+    "range",
+    "range-slider",
+    "range-box",
+    "input-range"
+  ],
   "license": "MIT",
   "dependencies": {
     "react": "^16.4.0",
