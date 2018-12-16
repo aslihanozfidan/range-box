@@ -12,3 +12,8 @@ $ npm install range-box
 
 ## Usage
 
+```javascript
+import RangeBox from 'range-box'
+
+<RangeBox max={maxVal} step={rangeStep} />
+```
