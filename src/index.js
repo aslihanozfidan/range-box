@@ -32,7 +32,13 @@ class RangeBox extends React.Component {
   }
 
   render() {
-    const { step, max, textThumb } = this.props
+    const {
+      step,
+      max,
+      textThumb,
+      inputClass,
+      thumbClass
+    } = this.props
     const { inputValue } = this.state
 
     return (
@@ -41,6 +47,7 @@ class RangeBox extends React.Component {
           type="range"
           id="range-box"
           name="range-box"
+          className={inputClass}
           min="0"
           max={max || 100}
           step={step || 1}
@@ -50,7 +57,7 @@ class RangeBox extends React.Component {
         <label
           htmlFor="range-box"
           ref={(label) => (this.label = label)}
-          className="range-box-label">
+          className={`range-box-label ${thumbClass}`}>
           {inputValue}{textThumb}
         </label>
       </div>
